@@ -19,9 +19,9 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  director_index = 0 
- # while director_index < nds
+  director_index = 0
+ while director_index < nds.length do
   result.store("", "")
- # return result
- pp nds
+end
+ return result
 end
