@@ -22,5 +22,6 @@ def directors_totals(nds)
   director_index = 0 
  # while director_index < nds
   result.store("", "")
-  return result
+ # return result
+ pp nds
 end
