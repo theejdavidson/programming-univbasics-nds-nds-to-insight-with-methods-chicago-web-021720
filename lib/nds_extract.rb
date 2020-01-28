@@ -6,11 +6,12 @@ require 'directors_database'
 def gross_for_director(director_data)
   gross = 0
   row_index = 0 
-  while row_index < diirector_data.length do
-    
+  while row_index < director_data.length do
+    gross += director_data[:movies][row_index][:worldwide_gross]
     row_index += 1
   end
   pp director_data
+  return gross
 end
 
 # Write a method that, given an NDS creates a new Hash
